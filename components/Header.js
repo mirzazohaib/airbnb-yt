@@ -68,7 +68,7 @@ function Header({ placeholder }) {
           onChange={(e) => setSearchInput(e.target.value)}
           className="flex-grow pl-5 bg-transparent outline-none text-sm text-gray-600 placeholder-gray-400"
           type="text"
-          placeholder={placeholder || "Start your seach"}
+          placeholder={placeholder || "Start your search here..."}
         />
         <MagnifyingGlassIcon className="hidden md:inline-flex h-8 bg-red-400 text-white rounded-full p-2 cursor-pointer md:mx-2" />
       </div>

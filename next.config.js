@@ -8,5 +8,9 @@ module.exports = {
       "jsonkeeper.com",
     ],
   },
+  env: {
+    mapbox_key:
+      "pk.eyJ1IjoibWlyemF6b2hhaWIiLCJhIjoiY2xlZ3VqYTBnMGlyMDN2bGQwYmZyMHdpeiJ9.tkPpuq274E-WfNeAxMyEIA",
+  },
   reactStrictMode: true,
 };

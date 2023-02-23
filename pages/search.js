@@ -3,6 +3,7 @@ import { format } from "date-fns";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import InfoCard from "../components/InfoCard";
+import AirBnbMap from "../components/AirBnbMap";
 
 function Search({ searchResults }) {
   const router = useRouter();
@@ -50,6 +51,10 @@ function Search({ searchResults }) {
               )
             )}
           </div>
+        </section>
+
+        <section className="hidden xl:inline-flex xl:min-w-[40%] sticky top-[76px] h-[calc(100vh-76px)]">
+          <AirBnbMap searchResults={searchResults} />
         </section>
       </main>
 
